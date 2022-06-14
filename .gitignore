@@ -5,3 +5,4 @@ terraform.tfstate.backup
 /keys/*
 aws-auth.tf
 foo.txt
+provider.tf

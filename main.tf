@@ -1,11 +1,7 @@
-provider "docker" {
-  host = "tcp://localhost:2375"
-}
-
 resource "random_id" "hexvalue" {
   byte_length = var.hexvalue-lenght
 
-}
+}  
 
 resource "docker_image" "alpine" {
   name = var.image-name
